@@ -1,0 +1,21 @@
+{
+  "name": "thebigproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@okta/oidc-middleware": "0.0.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-session": "^1.17.1",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.10",
+    "pug": "^3.0.0",
+    "sqlite3": "^4.2.0",
+    "xss": "^1.0.7"
+  }
+}

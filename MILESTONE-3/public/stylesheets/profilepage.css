@@ -1,0 +1,170 @@
+/*BACKGROUND*/
+
+
+/* Google font */
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+	background-image: url('../images/Image3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 108%;
+}
+
+#div1 {
+	font-size: 54px;
+	position: absolute;
+	left: 250px;
+	margin-top: 23px;
+}
+
+
+/*MIDDLE*/
+
+#clock {
+	/*position:absolute;*/
+	/*top:80px;*/
+	/*right:0px;*/
+	position: absolute;
+	top: 510px;
+	right: 560px;
+	font-family: 'Orbitron', sans-serif;
+	color: #F0F0F0;
+	font-size: 40px;
+	text-align: center;
+	/*padding-top: 4px;*/
+	/*padding-bottom: 1px;*/
+}
+
+
+/*RIGHT*/
+
+.scheduledtasks {
+	right: 0px;
+}
+
+.tasker ul,
+.tasker li,
+.tasker .error,
+.tasker button,
+.tasker input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+.todo-header button,
+.todo-lists .task button {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+}
+
+.tasker {
+	width: 500px;
+	position: absolute;
+	top: 180px;
+	right: 0px;
+	left: 1080px;
+	margin-right: 10%;
+}
+
+.sign {
+	padding-top: 40px;
+	color: #FFFFFF;
+	font-family: 'Didot', serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.tasker .error {
+	display: none;
+	background: #ff4747;
+	color: #fff;
+	padding: 14px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	width: 60%;
+}
+
+.tasker ul {
+	background: #fff;
+	width: 60%;
+}
+
+.tasker li,
+.tasker .error,
+.tasker button,
+.tasker input {
+	font: 18px/1.25em 'Lato', sans-serif;
+}
+
+.todo-header {
+	display: inline-flex;
+	background: #212121;
+	justify-content: space-between;
+	width: 60%;
+}
+
+#input-task {
+	color: white;
+}
+
+.todo-header input,
+.todo-header button {
+	color: #fff;
+	box-sizing: border-box;
+	font-size: 1.25em;
+	padding: 14px;
+}
+
+.todo-header input {
+	flex-grow: 2;
+}
+
+.todo-header button {
+	background: #00b934;
+	border-left: 1px solid #098009;
+}
+
+.todo-header button:hover {
+	background: #5cb85c;
+}
+
+.todo-lists .task {
+	display: block;
+	position: relative;
+	padding: 14px 40px 14px 14px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.todo-lists .task:last-child {
+	border-bottom: none;
+}
+
+.todo-lists .task:hover>button {
+	opacity: 1;
+}
+
+.todo-lists .task.completed {
+	color: #cdcdcd;
+	text-decoration: line-through;
+}
+
+.todo-lists .task input {
+	margin-right: 10px;
+}
+
+.todo-lists .task button {
+	color: #cdcdcd;
+	margin: 14px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.todo-lists .task button:hover {
+	color: #ed1c24;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="stylesheets/signup.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <title>Sign in</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="javascripts/signup.js" defer></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="main">
+         <div id="vuemain">
+            <p class="sign">CHECKLIST</p>
+            <p>{{message}}</p>
+            <p>{{info}}</p>
+            <input class="name " type="text" placeholder="FIRST NAME" id="fname">
+            <input class="sname " type="text" placeholder="LAST NAME" id="lname"><i class="fa fa-asterisk" style="font-size:9px;color:red"></i>
+            <input class="un " type="text" placeholder="EMAIL ADDRESS" id="email"><i class="fa fa-asterisk" style="font-size:9px;color:red"></i>
+            <input class="pass" type="password" placeholder="NEW PASSWORD" id="paass"><i class="fa fa-asterisk" style="font-size:9px;color:red"></i>
+            <!--<input type="date" class="date">-->
+            <input type="text" class="date" placeholder="DD/MM/YYYY"
+               onfocus="(this.type='date')" id="dob"><i class="fa fa-asterisk" style="font-size:9px;color:red"></i>
+            <p class ="gen"  id="genderi"><input class ="gender" type="radio" name="gender" value="male" >MALE
+               <input class ="gender" type="radio" name="gender" value="female" >FEMALE
+               <input class ="gender" type="radio" name="gender" value="other">OTHER
+            </p>
+            <p class ="gen"><input class ="gender" type="radio" name="role" value="MANAGER">MANAGER<i class="fa fa-asterisk" style="font-size:9px;color:red"></i>
+               <input class ="gender" type="radio" name="role" value="USER">USER<i class="fa fa-asterisk" style="font-size:9px;color:red"></i>
+            </p>
+            <button class="button" onclick="registration()">CREATE ACCOUNT</button>
+         </div>
+      </div>
+   </body>
+</html>
