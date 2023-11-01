@@ -10,4 +10,5 @@
 <img width="1438" alt="Screenshot 2023-11-01 at 10 28 14 am" src="https://github.com/pixelperfect02/Web-DatabaseProject/assets/50592586/fe4baa99-027d-4eb1-9fc4-2dc39744b410">
 <img width="1438" alt="Screenshot 2023-11-01 at 10 27 24 am" src="https://github.com/pixelperfect02/Web-DatabaseProject/assets/50592586/2cd4e005-51f7-4772-8e89-0461fb1fa8cf">
 <img width="1438" alt="Screenshot 2023-11-01 at 10 27 05 am" src="https://github.com/pixelperfect02/Web-DatabaseProject/assets/50592586/8e09898f-83d5-4ee3-8b66-c91a1bdc1c85">
-<img width="1438" alt="Screenshot 2023-11-01 at 10 28 37 am" src="https://github.com/pixelperfect02/Web-DatabaseProject/assets/50592586/d6c5b077-81a4-49ac-a57a-9d1149e25d30">
+<img width="252" alt="Screenshot 2023-11-01 at 10 34 56 am" src="https://github.com/pixelperfect02/Web-DatabaseProject/assets/50592586/c68ac315-c432-4afe-a56f-42f5245881c4">
+<img width="1289" alt="Screenshot 2023-11-01 at 10 23 13 am" src="https://github.com/pixelperfect02/Web-DatabaseProject/assets/50592586/7cd17126-65b1-43bc-8631-4d818c578be8">
