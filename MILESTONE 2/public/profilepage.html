@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+
+      <link rel="stylesheet" href="stylesheets/profilepage.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <title>Profile Page</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="javascripts/profilepage.js" defer></script>
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+   </head>
+   <body>
+      <!--left -->
+      <div class="w3-container"  style="margin-top:98px" >
+         <div class="w3-container" style="margin-left:100px;width:250px">
+            <p><button  class="w3-button w3-black w3-xlarge" style="font-size:40px" >
+               <i class='fas fa-user-circle' style="font-size:90px" ></i>
+               <br />EDIT PROFILE</button>
+            </p>
+            <p><button  class="w3-button w3-black w3-large" style="width:200px;">MANAGE<br />AVAILABILITY </button><br /></p>
+            <p><button  class="w3-button w3-black w3-large" style="width:200px">MANAGE<br />TYPE OF TASK </button><br /></p>
+            <p><button  class="w3-button w3-black w3-large" style="width:200px">SET UP<br />EMAIL<br/>NOTIFICATION</button><br /></p>
+            <p><button  class="w3-button w3-black w3-large" style="width:200px" onclick="assignTasks()">ASSIGN TASKS</button><br /></p>
+            <p><button  class="w3-button w3-black w3-large" style="width:200px"> MESSAGE<br />OR <br />CALL </button></p>
+            <br />
+         </div>
+      </div>
+      <!--middle-->
+      <div id="clock"></div>
+      <!--right-->
+
+      <div id="tasker" class="tasker">
+         <div id="error" class="error">Please Enter a Task</div>
+         <div id="todo-header" class="todo-header">
+            <input type="text" id="input-task" placeholder="To-do list">
+            <button id="add-task"><i class="fa fa-fw fa-plus"></i>
+            </button>
+         </div>
+         <div class="todo-lists">
+            <ul id="tasks"></ul>
+         </div>
+      </div>
+      <div class="w3-container" style=" position:absolute; top:80px; right:0px;left:1080px;">
+         <button class="w3-button w3-black w3" style="width:220px;font-size:15px;" onclick="displaytasks()">VIEW SCHEDULED<br/> TASKS</button>
+         <i class="fa fa-cog fa-spin fa-3x fa-fw">   </i>
+         <div id="scheduledtasks">
+
+      </div>
+
+         <div style="position:absolute;top:130px;right:0px;left:1080px;">
+
+         </div>
+
+      </div>
+
+
+      <br />
+
+
+
+   </body>
+</html>

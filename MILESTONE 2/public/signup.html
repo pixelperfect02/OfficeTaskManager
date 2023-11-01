@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="stylesheets/signup.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <title>Sign in</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="javascripts/signup.js" defer></script>
+   </head>
+   <body>
+      <div class="main">
+         <div id="vuemain">
+            <p class="sign">CHECKLIST</p>
+            <p>{{message}}</p>
+            <p>{{info}}</p>
+            <input class="name " type="text" placeholder="FIRST NAME">
+            <input class="sname " type="text" placeholder="LAST NAME">
+            <input class="un " type="text" placeholder="EMAIL ADDRESS">
+            <input class="pass" type="password" placeholder="NEW PASSWORD">
+            <!--<input type="date" class="date">-->
+            <input type="text" class="date" placeholder="DD/MM/YYYY"
+               onfocus="(this.type='date')">
+            <p class ="gen"><input class ="gender" type="radio" name="gender" value="male">MALE
+               <input class ="gender" type="radio" name="gender" value="female">FEMALE
+               <input class ="gender" type="radio" name="gender" value="other">OTHER
+            </p>
+            <button class="button" onclick="signUP()">CREATE ACCOUNT</button>
+         </div>
+      </div>
+   </body>
+</html>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--   <head>-->
+<!--      <link rel="stylesheet" href="stylesheets/signup.css">-->
+<!--      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">-->
+<!--      <meta name="viewport" content="width=device-width, initial-scale=1" />-->
+<!--      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
+<!--      <title>Sign in</title>-->
+<!--      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+<!--      <script src="stylesheets/signup.js" defer></script>-->
+<!--   </head>-->
+<!--   <body>-->
+<!--      <div class="main">-->
+<!--      <div id="vuemain">-->
+<!--         <p class="sign">CHECKLIST</p>-->
+<!--         <p>{{message}}</p>-->
+<!--         <p>{{info}}</p>-->
+<!--         <input class="name " type="text" placeholder="FIRST NAME" v-model="fname"></input>-->
+<!--         <input class="sname " type="text" placeholder="LAST NAME" v-model="lname"></input>-->
+<!--         <input class="un " type="text" placeholder="EMAIL ADDRESS" v-model="email"></input>-->
+<!--         <input class="pass" type="password" placeholder="NEW PASSWORD" v-model="password"></input>-->
+<!--         <input type="date" class="date" v-model="dob" ></input>-->
+<!--         <p class ="gen"><input class ="gender" type="radio" name="gender" value="male" v-model="gender">MALE</input>-->
+<!--            <input class ="gender" type="radio" name="gender" value="female" v-model="gender">FEMALE</input>-->
+<!--            <input class ="gender" type="radio" name="gender" value="other" v-model="gender">OTHER-->
+<!--         </p>-->
+<!--         </input>-->
+<!--         <button class="button" align="center" v-on:click="isRegisteredUser">CREATE ACCOUNT</button></input>-->
+<!--      </div>-->
+<!--   </body>-->
+<!--</html>-->
